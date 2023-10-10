@@ -1,0 +1,70 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(34, 34, 56);
+}
+
+
+.main-container{
+    background-color: rgb(74, 74, 133);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container{
+    border-radius: 50%;
+    background-color: rgb(20, 163, 127);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:2.5rem;
+    align-self: center;
+}
+
+/*THis is my advice number*/
+
+#advice-number{
+    color: rgb(20, 163, 127);
+    font-weight: 600;
+}
+
+/*-------------------------------*/
+
+
+/*THis is my advice*/
+
+#advice{
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/*--------------------------------*/
+
+
+
+/*THis is the button*/
+
+#my-button:hover{
+  cursor: pointer;
+}
+
+
+/*--------------------------------*/
